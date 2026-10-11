@@ -2,6 +2,7 @@ import SingularMatrices.TwoByTwo
 import SingularMatrices.SmallN
 import SingularMatrices.ErrorSums
 import SingularMatrices.ThreeByThree
+<<<<<<< HEAD
 import SingularMatrices.Planes
 import SingularMatrices.AxisPlanes
 import SingularMatrices.Moebius
@@ -15,4 +16,6 @@ import SingularMatrices.SectionArea
 import SingularMatrices.Octants
 import SingularMatrices.OctantIntegral
 import SingularMatrices.SphereIntegral
+=======
+>>>>>>> origin/main
 import SingularMatrices.Axioms

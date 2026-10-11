@@ -11,6 +11,7 @@ Lean 4 + Mathlib formalization of results from the paper in `paper/`
 | Small-N values of S₂ (OEIS A134506) and S₃ (Appendix A) | `SingularMatrices/SmallN.lean` | compiles |
 | Section 5: Steps 1–6 give S₃(N) = (J/ζ(3)) N⁶ log N + O(N⁶), with the single-plane estimates, Lemma 5.2 and Lemma 5.4 as hypotheses | `SingularMatrices/ErrorSums.lean`, `main_bound` | compiles |
 | Lemma 3.1 (pair form) and the first identity of Lemma 3.2, A(N) = Σ g(m) ⌊N/m⌋² | `SingularMatrices/ThreeByThree.lean`, `S3_split`, `A3count_eq_sum_g` | compiles |
+<<<<<<< HEAD
 | Lemma 3.1 (plane form): S₃(N) = N³A(N) + Σ_P L_P I_P | `SingularMatrices/Planes.lean`, `S3_planes` | compiles |
 | Prop. 3.5: L_P = qN, I_P = q²N² − D(q,N); D(N,N) = S₂(N) | `SingularMatrices/AxisPlanes.lean`, `axis_plane`, `Dgrid_self` | compiles |
 | Lemma 3.2 (Möbius formula for g(m)) | `SingularMatrices/Moebius.lean`, `g3_moebius` | compiles |
@@ -29,6 +30,9 @@ Theorem 3.6 is stated with the generic sum over primitive triples `(a, b, c)` wi
 `a, b, c ≤ N²`, the finite range the paper says suffices, and with `h(1) = 1`,
 `h(m) = 2φ(m)` (`hfun`). The right-hand side was checked numerically against brute force for
 `N ≤ 5` before formalizing. The Lean file also checks it for `N = 2, 3` with `native_decide`.
+=======
+| Rest of Theorem 3.6: grouping pairs by plane, Lemma 3.3, Prop. 3.5, Möbius formula for g(m) | — | next |
+>>>>>>> origin/main
 
 ## One-time setup
 
