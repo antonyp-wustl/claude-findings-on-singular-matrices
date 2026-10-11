@@ -1,0 +1,7 @@
+N,explicit_over_N6,c_gen,c_gen_err,c3,c3_err,method
+100,6.73763,-10.0201,0,-3.2825,0,exact count
+1000,6.90773,-9.841,0.008,-2.933,0.008,hybrid (scripts/second_order/hybrid.c)
+10000,6.94230,-9.724,0.010,-2.782,0.010,hybrid
+100000,6.94674,-9.688,0.019,-2.741,0.019,hybrid
+1000000,6.94738,-9.645,0.045,-2.698,0.045,hybrid
+inf,6.94746,-9.6855,0.0006,-2.7381,0.0006,Conjecture 6.1 (K0 and Delta below)
